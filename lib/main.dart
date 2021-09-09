@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:simple_responsive_adaptive/screens/desktop_screen.dart';
+import 'package:simple_responsive_adaptive/screens/mobile_screen.dart';
 
 void main() {
   runApp(MyApp());
@@ -14,7 +15,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
-      home: DesktopScreen(),
+      home: MobileScreen(),
     );
   }
 }
