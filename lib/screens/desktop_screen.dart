@@ -1,4 +1,6 @@
 import 'package:flutter/material.dart';
+import 'package:simple_responsive_adaptive/adaptive/adaptive_indicator.dart';
+import 'package:simple_responsive_adaptive/constants/constants.dart';
 
 class DesktopScreen extends StatelessWidget {
 
@@ -82,10 +84,16 @@ class DesktopScreen extends StatelessWidget {
                       ),
                     ],
                   ),
+                  Center(
+                    child: AdaptiveIndicator(
+                      os: getOS(),
+                    ),
+                  ),
                 ],
               ),
             ),
           ),
+
         ],
       ),
     );
