@@ -6,8 +6,7 @@ void main() {
   runApp(MyApp());
 }
 
-// hello test ..
-// hello test 2..0.
+
 
 class MyApp extends StatelessWidget {
   @override
